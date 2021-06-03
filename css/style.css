@@ -1,0 +1,104 @@
+@font-face {
+  font-family: futura std book;
+  src: url(../font/FuturaStdBook.woff);
+}
+h1, h2, h3 , h4, h5, h6{
+	font-family: 'Bebas Neue', cursive, sans-serif;
+}
+p{
+  font-family: 'futura std book', 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+}
+
+/*nav*/
+nav{
+  font-family: 'futura std book', 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  letter-spacing: 1px;
+  padding: 10px 50px;
+}
+
+.navbar{
+    padding: 1% 50px;
+    justify-content: flex-start;
+}
+.customNav {
+	position: fixed;
+	width: 100%;
+  padding: 0 4%;
+	background-color: white;
+	background-size: cover;
+	z-index: 10;
+  border-bottom: 1px solid black;
+}
+.navbar-nav {
+	margin-left: auto;
+	margin-right: 0 !important;
+}
+.navbar-brand{
+	width: 100px;
+	display: flex;
+  align-items: center;
+  margin: 0% 4%;
+}
+
+.navbar-brand h3{
+  margin: 10px 0;
+  letter-spacing: 5px;
+  font-size: 32pt;
+}
+
+.navbar-brand img {
+  display: block;
+  padding-right: 16px;
+  width: 70px;
+}
+.nav-item {
+  margin: 9px 20px;
+  font-size: 18px;
+}
+/* Navigation links */
+.customNav a {
+  color: black; 
+}
+
+/*hero*/
+.jumbotron {
+  background-image: url(../images/HeroImage.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 47.8em;
+}
+
+/* Jumbotron copy */
+.jumboCopy {
+  width: 40%;
+  min-width: 500px;
+  max-width: 700px;
+  color: black;
+  text-align: left;
+  margin-left: 10%;
+  flex: 0 40%;
+
+}
+.projectTitle{
+  margin-top: 40px;
+  margin-bottom: 30px;
+  font-size: 56pt;
+  line-height: 81px;
+  letter-spacing: 6px;
+  font-weight: 400;
+  display: block;
+  margin-block-start: 0.83em;
+}
+.projectDescription{
+  margin-bottom: 30px;
+  font-size: 24px;
+}
+.deliverables{
+  font-size: 16px;
+  line-height: 28px;
+}
