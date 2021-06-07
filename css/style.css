@@ -9,6 +9,7 @@ p{
   font-family: 'futura std book', 'Open Sans', sans-serif;
   font-style: normal;
   font-weight: normal;
+  font-size: 18px;
 }
 
 /*nav*/
@@ -17,21 +18,21 @@ nav{
   font-style: normal;
   font-weight: normal;
   letter-spacing: 1px;
-  padding: 10px 50px;
+  padding: 1% 50px;
+  width: 100%;
+  max-width: 100vw;
 }
 
-.navbar{
-    padding: 1% 50px;
-    justify-content: flex-start;
-}
+
 .customNav {
 	position: fixed;
 	width: 100%;
-  padding: 0 4%;
+  padding: 1% 7%;
 	background-color: white;
 	background-size: cover;
 	z-index: 10;
   border-bottom: 1px solid black;
+  justify-content: flex-start;
 }
 .navbar-nav {
 	margin-left: auto;
@@ -41,7 +42,6 @@ nav{
 	width: 100px;
 	display: flex;
   align-items: center;
-  margin: 0% 4%;
 }
 
 .navbar-brand h3{
@@ -53,7 +53,7 @@ nav{
 .navbar-brand img {
   display: block;
   padding-right: 16px;
-  width: 70px;
+  width: 65px;
 }
 .nav-item {
   margin: 9px 20px;
@@ -69,8 +69,9 @@ nav{
   background-image: url(../images/HeroImage.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  width: 100vw;
-  height: 47.8em;
+  width: 100%;
+  height: 55em;
+  display: block;
 }
 
 /* Jumbotron copy */
@@ -82,18 +83,16 @@ nav{
   text-align: left;
   margin-left: 10%;
   flex: 0 40%;
+  margin-top: 140px;
+  margin-bottom: 30px;
 
 }
 .projectTitle{
-  margin-top: 40px;
-  margin-bottom: 30px;
   font-size: 56pt;
   line-height: 81px;
   letter-spacing: 6px;
-  font-weight: 400;
-  display: block;
-  margin-block-start: 0.83em;
 }
+
 .projectDescription{
   margin-bottom: 30px;
   font-size: 24px;
@@ -101,4 +100,258 @@ nav{
 .deliverables{
   font-size: 16px;
   line-height: 28px;
+}
+
+/*Project Summary*/
+.ProjectSummary{
+  margin-top: 0%;
+  margin-bottom: 20%;
+  padding-top: 0%;
+  height: 21.9em;
+  background-color: rgba(33, 186, 194, 0.2);
+  width: 100%;
+  border: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.mockupImage{
+  margin-left: 5%;
+}
+
+.summaryBody{
+  margin-right: 10%;
+  padding: 0% 5%;
+}
+
+.summaryRow{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+/*User Research*/
+
+.userResearch{
+  margin-top: 20%;
+  border: none;
+  width: 100vw;
+}
+
+
+.titleCard-right{
+  display: flex;
+  flex-direction: column;
+  padding-top: 10%;
+  width: 80%;
+  margin-right: 0px;
+}
+
+.titleCard-right h5{
+  font-size: 200pt;
+  line-height: 62px;
+  height: 100%;
+  padding-bottom: 15%;
+}
+
+.titleCard-right p{
+  font-size: 40px;
+}
+
+.colourRectangle{
+  background-color: rgba(33, 186, 194, 0.2);
+  width: 30vw;
+  height: 30px;
+
+}
+
+.userResearch-description{
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-left: 5%;
+}
+
+.userResearch-Images p{
+  margin-top: 2%;
+}
+
+.userResearch-Images{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 3% 5%;
+}
+
+.userResearch-Images p{
+  text-align: center;
+}
+
+
+
+/*Definition & Synthesis*/
+.defSyn{
+  border: none;
+  margin-top: 10%;
+  background-color: rgba(33, 186, 194, 0.2);
+  height: 100%;
+  padding-top: 8%;
+  padding-bottom: 5%;
+}
+.defSyn-description{
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-right: 5%;
+}
+
+.titleCard-left{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding-top: 15%;
+  text-align: right;
+  margin-top: 5%;
+
+}
+
+.titleCard-left h5{
+  font-size: 200pt;
+  line-height: 62px;
+  height: 100%;
+  padding-bottom: 10%;
+}
+
+.titleCard-left p{
+  font-size: 40px;
+}
+
+.whiteRectangle{
+  background-color: white;
+  width: 30vw;
+  height: 30px;
+}
+
+.defSyn p{
+  margin-top: 2%;
+}
+
+.defSyn-Images{
+  margin-top: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  align-content: center;
+  width: 80%;
+}
+.defSyn-Images img{
+  width: 100%;
+  }
+
+.imageRow{
+  display: flex;
+  flex-direction: column;
+}
+/*ideation*/
+
+.fpm{
+
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-items: center;
+}
+
+.fpmtest{
+  width: 80%;
+}
+
+.ideation-Images{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 3% 5%;
+}
+
+.ideation-SWOT{
+  width: 80%;
+  text-align: center;
+}
+
+.ideation-SWOT img{
+margin-right: -20px;
+margin-bottom: 50px;
+}
+
+/*prototyping*/
+
+.prototyping-Images{
+  margin-top: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  align-content: center;
+}
+
+.prototyping-Images img{
+  width: 100%;
+  }
+
+
+.col-md-4{
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+
+.card-body{
+  padding: 0px;
+}
+
+.outcome-Images{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: auto;
+  margin: auto;
+}
+
+.outcome-Images2{
+  margin-top: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.outcome-Images2 img{
+  width: 100%;
+  }
+
+.footer{
+    background-color: black;
+    height: 100%;
+     padding: 5%;
+  }
+.footerText{
+  color: white;
+  font-size: 40px;
+  text-align: center;
+}
+
+.footer p{
+color: white;
+text-align: center;
+  }
+
+.footerContext{
+  display: flex;
+  flex-direction: column;
 }
