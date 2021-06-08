@@ -338,6 +338,10 @@ margin: 5% auto auto auto;
   width: 100%;
   }
 
+.outcome-Images2 p{
+    margin-top: 5%;
+}
+
 .footer{
     background-color: black;
     height: 100%;
