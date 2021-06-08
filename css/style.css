@@ -12,6 +12,12 @@ p{
   font-size: 18px;
 }
 
+
+.row {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
 /*nav*/
 nav{
   font-family: 'futura std book', 'Open Sans', sans-serif;
@@ -63,6 +69,7 @@ nav{
 .customNav a {
   color: black; 
 }
+
 
 /*hero*/
 .jumbotron {
@@ -136,9 +143,7 @@ nav{
 .userResearch{
   margin-top: 20%;
   border: none;
-  width: 100vw;
 }
-
 
 .titleCard-right{
   display: flex;
@@ -315,11 +320,8 @@ margin-bottom: 50px;
 }
 
 .outcome-Images{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: auto;
-  margin: auto;
+align-items: center;
+margin: 5% auto auto auto;
 }
 
 .outcome-Images2{
@@ -329,6 +331,7 @@ margin-bottom: 50px;
   align-items: center;
   justify-content: center;
   text-align: center;
+  margin: auto;
 }
 
 .outcome-Images2 img{
@@ -354,4 +357,8 @@ text-align: center;
 .footerContext{
   display: flex;
   flex-direction: column;
+}
+
+.overflowWeb{
+  overflow: hidden;
 }
